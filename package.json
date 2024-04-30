@@ -2,7 +2,7 @@
   "name": "property-wala",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
     "dev": "nodemon -e js,ejs app",
     "start": "cd src && node App.js"
