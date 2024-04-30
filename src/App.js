@@ -64,6 +64,10 @@ app.get('/dockerTest', (req, res) => {
   res.send("docker works!!!")
 })
 
+app.get("/", (req, res) => {
+  res.send("home route")
+})
+
 app.get('/csrf-token', (req, res) => {
   res.status(200).json({ csrfToken: req.csrfToken() });
 });
